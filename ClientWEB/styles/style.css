@@ -1,0 +1,125 @@
+#map {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+
+#openSidenav {
+    position: fixed;
+    top: 45%;
+    left: 2%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+    display: none;
+}
+
+/* The side navigation menu */
+.sidenav {
+    text-align: center;
+    height: 100%;
+    width: 450px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+.sidenav h1 {
+    color: #719bff;
+    font-weight: bold;
+}
+
+.sidenav p {
+    color: #719bff;
+    font-weight: bold;
+    margin-bottom: 15vh;
+}
+
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* The navigation menu links */
+.sidenav label {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #719bff;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* The navigation menu input */
+.sidenav input {
+    text-decoration: none;
+    color: #111;
+    transition: 0.3s;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#btn-search {
+    margin-top: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#legendFoot {
+    background-color: #cc6600;
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    border: #cccccc solid 2px;
+    margin-top: 20vh;
+}
+
+#legendFootLabel {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#legendBike {
+    background-color: #1751e6;
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    border: #cccccc solid 2px;
+}
+
+#legendBikeLabel {
+    display: inline-block;
+    margin-left: 10px;
+}

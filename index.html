@@ -1,0 +1,47 @@
+<!DOCUTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andréa BERRO">
+
+    <title>Let's Go Biking</title>
+    <link rel="icon" href="ClientWeb/data/bike.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="ClientWEB/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+
+</head>
+
+<body>
+    <div>
+
+    </div>
+    <div id="map-container">
+        
+        <div id="mySidenav" class="sidenav">
+            <h1>Let's Go Biking</h1>
+            <p>JCDecaux developer</p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <label for="from">Départ</label>
+            <input id="from" type="text"></input>
+            <label for="from">Arrivée</label>
+            <input id="to" type="text"></input>
+            <button id="btn-search" onclick="searchPath()">Rechercher l'itinéraire</button>
+            <br>
+            <span id="legendFoot"></span><p id="legendFootLabel">Chemin à pied</p>
+            <span id="legendBike"></span><p id="legendBikeLabel">Chemin à vélo</p>
+        </div>
+
+        <span id="openSidenav" onclick="openNav()"><img src="ClientWeb/data/right-arrow.png" alt="->" width="50px"/></span>
+        <div id="map" onclick="closeNav()"></div>
+        
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+<script src="ClientWEB/scripts/script.js"></script>
+
+
+</html>
