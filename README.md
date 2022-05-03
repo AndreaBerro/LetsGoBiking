@@ -17,7 +17,7 @@ Le serveur proxy est connecté en REST a l'API de [JCdecaux](https://developer.j
 
 ![Image architecture](./img/index.png)
 
-Le code de chaque sous projet est disponible dans leur dossier respectifs.
+Le code de chaque sous projet est disponible dans leur dossier respectif.
 
 ## Auteur
 Andréa BERRO - [Github](https://github.com/AndreaBerro)
